@@ -1,0 +1,95 @@
+.best-deal{
+    margin-top: 70px;
+    background-color: #fafafa;
+}
+.best-deal .container{
+    margin: 0px 40px 0px 40px;
+    padding: 100px 0px 100px 0px;
+}
+.best-deal .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.best-deal .top .top-buttons button{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1e1e1e !important;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 25px;
+    color: #fff;
+    margin: 0px 10px 0px 10px;
+    border:0;
+    cursor: pointer;
+}
+.best-deal .top .top-buttons .active{
+    background-color: #f35525 !important;
+}
+.best-deal .bottom{
+    margin-top: 60px;
+    display: none;
+}
+.best-deal .available{
+    display: flex;
+}
+.best-deal .bottom .left-side{
+    width: 280px;
+}
+.best-deal .bottom .best-table{
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+}
+.best-deal .bottom .best-table ul{
+    padding: 0;
+    margin: 0;
+}
+.best-deal .bottom .best-table li{
+    display: block;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    text-align: left;
+    font-size: 13px;
+    color: #aaa;
+    font-weight: 400;
+}
+.best-deal .bottom .best-table li:last-child{
+    margin: 0px;
+    padding: 0px;
+}
+.best-deal .bottom .best-table li:not(:last-child){
+    border-bottom: 1px solid #eee;
+}
+.best-deal .bottom .best-table span{
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 700;
+    float: right;
+}
+
+.best-deal .bottom .middle img{
+    width: 100%;
+    padding: 0 45px;
+}
+.best-deal .bottom .right-side{
+    margin-bottom: 40px;
+    width: 25%; 
+    margin-left: 20px;
+}
+.best-deal .bottom .right-side p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+.best-deal .right-side .icon-button{
+    padding: 0;
+    line-height: 40px;
+    height: 40px;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+    letter-spacing: .25px;
+}

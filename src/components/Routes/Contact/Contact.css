@@ -1,0 +1,102 @@
+.contact-us{
+    margin-top: 100px;
+}
+.contact-us .top{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us .top .left{
+    text-align: left;
+    width: 50%;
+}
+.contact-us .top .left p {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+.contact-us .section-heading h2{
+    max-width: 300px;
+}
+.contact-us .top .right{
+    width: 50%;
+}
+.contact-us .top .right,
+.contact-us .top .left{
+    padding: 0 12px;
+}
+.contact-us form{
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+}
+.contact-us label{
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+}
+.contact-us input{
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0px 15px;
+}
+.contact-us textarea{
+    width: 100%;
+    height: 150px;
+    max-height: 180px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 14px;
+    padding: 15px 15px;
+}
+.contact-us .information{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-us .information {
+    margin-top: 20px;
+}
+.contact-us .panel{
+    min-width: 360px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+}
+.contact-us .panel:first-child{
+    margin-bottom: 30px;
+}
+.contact-us .panel h6{
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+    margin: 0;
+}
+.contact-us .panel span{
+    font-size: 15px;
+    color: #aaaaaa;
+    font-weight: 400;
+}
+.contact-us .panel img{
+    float: left;
+    margin-right: 25px;
+    vertical-align: middle;
+    max-width: 52px;
+    width: 100%;
+}
+.contact-us .bottom{
+    margin-top: 80px;
+    width: 100%;
+}
+.contact-us .bottom .map img{
+    width: 100%;
+}

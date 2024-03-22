@@ -1,0 +1,109 @@
+.slider{
+    position: relative;
+}
+.slider .slide{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 20% 320px 20%;
+    margin-top: 0px;
+    display: none;
+}
+.slider .working{
+    display: flex !important;
+}
+.slide1{
+    background-image: url('../../images/banner-01.jpg');
+}
+.slide2{
+    background-image: url('../../images/banner-02.jpg');
+}
+.slide3{
+    background-image: url('../../images/banner-03.jpg');
+}
+.slider span.category{
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.slider-text{
+    text-align: left;
+}
+.category em {
+    font-style: normal;
+    color: #f35525;
+}
+.slider h2{
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 72px;
+    width: 50%;
+    margin: 0px;
+}
+.slider-dots{
+    position: absolute;
+    bottom: 60px;
+    left: 20%;
+}
+.slider-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50px);
+}
+.slider button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+.slider-dots .active{
+    background-color: #f35525 !important;
+}
+.slider .slider-dot{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .5s; 
+}
+.slider .next,
+.slider .prev{
+    cursor: pointer;
+}
+.slider .next .icon,
+.slider .prev .icon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    display: inline-block;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    opacity: 1;
+    transition: all .3s;
+}
+.slider .next .icon{
+    position: absolute;
+    right: 45px;
+}
+.slider .prev .icon {
+    position: absolute;
+    left: 45px;
+}
+.slider .next .icon:hover,
+.slider .prev .icon:hover{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+}

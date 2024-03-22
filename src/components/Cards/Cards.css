@@ -1,0 +1,75 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    transition: all .3px;
+}
+.card img{
+    border-radius: 10px;
+    width: 100%;
+}
+.card .info{
+    text-align: left;
+}
+.card .category{
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.card h6{
+    font-size: 20px;
+    color: #f35525;
+    float: right;
+    margin-top: 30px;
+}
+.card h4{
+    font-size: 19px;
+    margin: 25px 0px;
+}
+.card ul{
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+}
+.card ul li{
+    display: inline-block;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-right: 20px;
+}
+.card ul li span{
+    font-weight: 600;
+    color: #1e1e1e;
+}
+.main-button{
+    text-align: center;
+} 
+.main-button a{
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+}
+.main-button:hover a{
+    background-color: #f35525;
+}

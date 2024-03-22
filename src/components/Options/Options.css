@@ -1,0 +1,30 @@
+.multi-options .options{
+    text-align: left;
+}
+.options .option{
+    background-color: #fafafa;
+}
+.options .option h4{
+    cursor: pointer;
+    padding: 16px 20px;
+    margin: 0;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1e1e1e;
+}
+.options  .option:not(:last-child) .option-header{
+    border-bottom: 1px solid #eaeaea;
+}
+.options .option:first-child{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.options .option:last-child{
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.option .option-content div{
+    padding: 16px 20px;
+    display: none;
+} 

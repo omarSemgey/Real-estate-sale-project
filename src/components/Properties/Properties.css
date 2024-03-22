@@ -1,0 +1,11 @@
+.properties{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.properties .section-heading{
+    text-align: -webkit-center;
+    margin-bottom: 40px;
+}
+.properties .section-heading h2{
+    width: 350px;
+}

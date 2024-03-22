@@ -1,0 +1,38 @@
+.fun-facts{
+    margin-top:300px;
+}
+.fun-facts .container{
+    display: flex;
+    justify-content: space-between;
+}
+.fun-facts .counter{
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+}
+.counter p, .counter h2{
+    display: inline-flex;
+    vertical-align: middle;
+}
+.counter p{
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+.counter h2{
+    margin: 0px 25px  0px 0px;
+    font-size: 40px;
+    color: #f35525;
+}
+.counter .circle{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    right: -25px;
+    top: -25px;
+}

@@ -1,0 +1,292 @@
+@media (max-width: 767px) {
+    .top-header{
+        display: none;
+    }
+    .header .nav-links{
+        display: none;
+    }
+    .header .drop-down{
+        display: block !important;
+    }
+    .slider h2{
+        width: 100%;
+    }
+    .section-heading h2{
+        width: 100%;
+    }
+    .video-section h2{
+        max-width: 530px;
+    }
+    .video .container{
+        margin: 0px 15px 0px 15px !important; 
+        padding: 0;
+    }
+    .best-deal .container {
+        margin: 0px 15px 0px 15px !important; 
+    }
+    .best-deal .top-buttons{
+        display: flex;
+    }
+    .best-deal .middle{
+        margin-left: 0;
+    }
+    .best-deal .middle img{
+        padding: 0 !important;
+    }
+    .cards {
+        max-width: 540px !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .card{
+        width: 100% !important;
+    }
+    .contact-section .container{
+        margin: 0;
+        padding: 0;
+    }
+    .contact-content .form{
+        margin: 50px 10px 0px 10px;
+        width: 100%;
+    }
+    .contact-content .container{
+        margin: 0px 10px 0px 10px;
+        padding: 0;
+    }
+    .contact-content .map img{
+        width: 100%;
+    }
+    .contact-content .information{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-content .panel:first-child{
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+    .contact-content .panel{
+        width: 100%;
+    }
+    .Property .property-container{
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+/* 993 */
+@media (max-width: 993px) {
+    .top-header{
+        display: none;
+    }
+    .header li{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .sticky li{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .sticky ul{
+        justify-content: space-around;
+    }
+    .sticky li{
+        padding-left: 0 !important;
+    }
+    .featured .container{
+        margin: 0 0px 0 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .featured .left-side{
+        width: 100%;
+    }
+    .featured .left-side .featured-img{
+        width:  calc(100% - 100px) !important;
+        height:  calc(100% - 100px) !important;
+    }
+    .featured .multi-options{
+        margin: 0;
+        width: 100%;
+    }
+    .featured .multi-options .section-heading{
+        margin: 65px 30px 0px 0px;
+    }
+    .table{
+        margin-top: 45px;
+    }
+    .table{
+        width: 100%;
+        margin: 0;
+    }
+    .video-section h2{
+        width: 560px !important;
+    }
+    .video .container{
+        margin: 0px 35px 0px 35px;
+    }
+    .fun-facts{
+        margin-top: 250px !important;
+    }
+    .fun-facts .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .fun-facts .counter{
+        margin-bottom: 50px;
+    }
+    .best-deal .top{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .best-deal .top .section-heading h2{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .best-deal .available{
+        display: flex;
+        flex-wrap: wrap;    
+    }
+    .best-deal .bottom .left-side{
+        width: 100%;
+    }
+    .best-deal .middle{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+    .best-deal .right-side{
+        width: 100%;
+        text-align: left;
+    }
+    .best-deal .right-side .icon{
+        text-align: center !important;
+    }
+    .properties .container{
+        padding: 0;
+        margin: 0px 15px 0px 15px;
+    }
+    .cards{
+        padding: 0;
+    }
+    .card{
+        width: 45%;
+    }
+    .properties .section-heading h2{
+        width: 100%;
+    }
+    .contact-content .section-heading h2{
+        width: 100%;
+    }
+    .contact-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .contact-content form{
+        margin-top: 50px;
+    }
+    .page-heading .container{
+        margin: 0;
+        padding: 0;
+    }
+    .Property .property-container{
+        max-width: 720px;
+        flex-wrap: wrap !important;
+        margin: 0 135px 0 135px;
+    }
+    .Property .left-side,
+    .right-side{
+        width: 100% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Property .left-side{
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .contact-us .container {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-us .top{
+        display: block;
+    }
+    .contact-us .top .right,
+    .contact-us .top .left{
+        width: 100%;
+    }
+    .contact-us .left h2{
+        max-width: 100%;
+    }
+    .contact-us .right{
+        margin-top: 60px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+    .featured .container{
+        margin: 0 0px 0 25px;
+    }
+    .featured .options .option {
+    max-width: 530px;
+    }
+    .best-deal .top .section-heading{
+        text-align: left;
+    }
+    .best-deal .top .top-buttons{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        border-bottom: none !important;
+        margin-bottom: 80px;
+        margin-top: -130px;
+    }
+    .best-deal .bottom .left-side li span{
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    .video .container{
+        margin: 0px 35px 0px 20px;
+    }
+    .video-section h2{
+        max-width: 340px; 
+    }
+    .fun-facts .counter{
+        margin-right: 30px;
+    }
+    .contact-content .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .contact-content form {
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+    margin: 0px 100px 0px 100px;
+    }
+    .featured .options .option{
+    max-width: 530px;
+    }
+    .best-deal .container{
+        margin: 0px 130px 0px 130px;
+    }
+    .best-deal .top .top-text h2{
+        width: 330px;
+        margin-bottom: 0;
+    }
+    .best-deal .top .top-text{
+        text-align: left;
+    }
+    .video img{
+        width: 85%;
+    }
+    .Property .container{
+        margin: 0 100px 0 100px;
+    }
+}
